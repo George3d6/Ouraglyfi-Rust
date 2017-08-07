@@ -37,3 +37,7 @@ thread::spawn(move || {
     }
 });
 ```
+#### Disclaimer:
+
+Currently due to various issues, some of which I'm not aware of, the rust queue seems to be significantly (up to a few dozen times) slower than the C++ queue under
+large workloads. I'm not yet sure as to why but as I understnad the language better this version will hopefully become decent.
