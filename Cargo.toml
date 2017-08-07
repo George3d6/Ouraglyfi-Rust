@@ -1,0 +1,8 @@
+[package]
+name = "ouraglyfi"
+version = "0.1.0"
+authors = ["George Hosu <george@cerebralab.com"]
+[lib]
+name = "ouraglyfi"
+path="ouraglyfi.rs"
+test = true
